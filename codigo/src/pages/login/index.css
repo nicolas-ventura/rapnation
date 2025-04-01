@@ -3,12 +3,21 @@
 body {
     background-color: #275027;
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
 
+.image {
+    width: 100vw;
+    height: 50px;
 
+    img{
+        width: 60px;
+
+    }
+
+};
 
 .login {
 
@@ -17,11 +26,11 @@ body {
     justify-content: center;
     align-items: center;
     width:30vw;
-    height: 40vh;
+    height: 46vh;
     border-radius: 8px;
     flex-direction: column;
     gap: 70px;
-    
+    margin-top: 160px;
     .entrar {
 
         width: 130px;
@@ -37,11 +46,12 @@ body {
         gap: 10px;
         width: 85%;
 
-        button {
+        input {
             padding: 10px;
             border-radius:  10px; 
             font-size: medium;
-            color: rgb(162, 171, 179)
+            color: rgb(162, 171, 179);
+            border: none
         }
     }
     
