@@ -1,0 +1,52 @@
+
+
+body {
+    background-color: #275027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+
+
+.login {
+
+    background-color: #175B17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30vw;
+    height: 40vh;
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 70px;
+    
+    .entrar {
+
+        width: 130px;
+        border-radius: 8px;
+        font-size:small;
+        color: rgb(140, 141, 142);
+
+    }
+
+    .E-mail {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 85%;
+
+        button {
+            padding: 10px;
+            border-radius:  10px; 
+            font-size: medium;
+            color: rgb(162, 171, 179)
+        }
+    }
+    
+};
+
+
+
+};
